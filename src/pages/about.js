@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Layout from '@/components/Layout'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/Shubham-pic.jpg";
-import { useSpring, useMotionValue, useInView, motionValue} from 'framer-motion'
+import { useSpring, useMotionValue, useInView, motionValue } from 'framer-motion'
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -20,7 +20,7 @@ const AnimatedNumbers = ({ value }) => {
 
   useEffect(() => {
     springValue.on("change", (latest) => {
-      if(ref.current && latest.toFixed(0) <=value){
+      if (ref.current && latest.toFixed(0) <= value) {
         ref.current.textContent = latest.toFixed(0);
       }
     });
@@ -43,9 +43,12 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>About Me</h2>
               <p className='font-medium'>
-                Hi, I'm Shubham, a web developer and Java Developer with a passion for creating beautiful, 
-                functional,and user-centered digital experiences. With 2 years of experience in the field.
-                I am always looking for new and innovative ways to bring my clients' visions to life.
+                <p className='font-medium'>
+                  Hi, I&apos;m Shubham, a web developer and Java Developer with a passion for creating beautiful,
+                  functional, and user-centered digital experiences. With 2 years of experience in the field.
+                  I am always looking for new and innovative ways to bring my clients&apos; visions to life.
+                </p>
+
               </p>
               <p className='my-4 font-medium'>
                 I believe that design is about more than just making things look pretty. it's about solving problems and
@@ -75,14 +78,14 @@ const about = () => {
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold'>
-                  <AnimatedNumbers value={10}/>+
+                  <AnimatedNumbers value={10} />+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75'>Projects Completed</h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold'>
-                  <AnimatedNumbers value={3}/>+
+                  <AnimatedNumbers value={3} />+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75'>Years Experience</h2>
               </div>

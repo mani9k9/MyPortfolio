@@ -8,7 +8,10 @@ import { GithubIcon } from '@/components/Icons'
 import project1 from "../../public/images/projects/blog_pic.jpg"
 import project2 from "../../public/images/projects/Car_show.jpg"
 import project3 from "../../public/images/projects/running.jpg"
-const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+import project4 from "../../public/images/projects/people_talk.jpg"
+import project5 from "../../public/images/projects/portfolio.jpg"
+
+/* const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <article className='w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 rounded-br-2xl relative'>
       <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl' />
@@ -32,7 +35,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
       </div>
     </article>
   )
-}
+} */
 
 const Project = ({ title, type, img, link, github }) => {
   return (
@@ -74,14 +77,20 @@ const projects = () => {
           />
 
           <div className='grid grid-cols-12 gap-24 gap-y-32'>
-            <div className='col-span-12'>
-              <FeaturedProject
+
+          <div className='col-span-6'>
+              <Project
+                title="Portfolio"
+                img={project5}
+                link="https://boss-gaming.netlify.app/"
+                github="https://github.com/mani9k9/big-boss-running-"
+                type="Featured Project"
+              />
+            </div>
+            <div className='col-span-6'>
+              <Project
                 title="Blog App"
                 img={project1}
-                summary="This project aims to develop a log app using Spring MVC, Spring Security, Hibernate, Spring Data JPA, MySQL, and
-                 Spring Boot. The app will have features like user registration, blog post management, commenting system, categories and 
-                 tags, user profiles, responsive design, and efficient database management.These tools and technologies will be utilized 
-                 to create a robust and secure web application with a seamless user experience."
                 link="/"
                 github="https://github.com/mani9k9/BlogApp"
                 type="Featured Project"
@@ -100,6 +109,15 @@ const projects = () => {
               <Project
                 title="Big Boss Running"
                 img={project3}
+                link="https://boss-gaming.netlify.app/"
+                github="https://github.com/mani9k9/big-boss-running-"
+                type="Featured Project"
+              />
+            </div>
+            <div className='col-span-6'>
+              <Project
+                title="Peolpe's Talk"
+                img={project4}
                 link="https://boss-gaming.netlify.app/"
                 github="https://github.com/mani9k9/big-boss-running-"
                 type="Featured Project"

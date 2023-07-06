@@ -82,8 +82,8 @@ const projects = () => {
               <Project
                 title="Portfolio"
                 img={project5}
-                link="https://boss-gaming.netlify.app/"
-                github="https://github.com/mani9k9/big-boss-running-"
+                link="https://my-portfolio-mauve-eta.vercel.app"
+                github="https://github.com/mani9k9/MyPortfolio"
                 type="Featured Project"
               />
             </div>
@@ -118,8 +118,8 @@ const projects = () => {
               <Project
                 title="Peolpe's Talk"
                 img={project4}
-                link="https://boss-gaming.netlify.app/"
-                github="https://github.com/mani9k9/big-boss-running-"
+                link="/"
+                github="https://github.com/mani9k9/people-talk"
                 type="Featured Project"
               />
             </div>

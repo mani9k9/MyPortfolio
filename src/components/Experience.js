@@ -13,9 +13,9 @@ whileInView={{y:0}}
 transition={{duration:0.5, type:"spring"}}
 >
             <h3 className='capitalize font-bold text-2xl'>
-                {position}&nbsp;<a href={companyLink} target="_blank" className="text-primary capitalize">@{company} </a>
+                {position}&nbsp;<a href={companyLink} target="_blank" className="text-primary dark:text-primaryDark capitalize">@{company} </a>
             </h3>
-            <span className='capitalize font-medium text-dark/75'>
+            <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
                 {time} | {address}
             </span>
             <p className='font-medium w-full'>
@@ -44,7 +44,7 @@ const {scrollYProgess} = useScroll(
             <div ref={ref} className='w-[75%] mx-auto relative'>
                 <motion.div 
                 style={{scaleY: scrollYProgess}}
-                className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top' />
+                className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light' />
                 <ul>
                     <Details
                         position="Data Analyst" company="1K Kirana"

@@ -72,6 +72,21 @@ export const PinterestIcon = ({ className, ...rest }) => (
   </svg>
 );
 
+export const LeetcodeIcon = ({className, ...rest}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill="#4db6ac"
+    className={'w-full h-auto ${className}'}
+    {...rest}
+  >
+    <path fill="none" d="M0 0h24v24H0z" />
+    <path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H6V4h12v16zM8.5 5l2.5 5-2.5 5 6-10h-6z" />
+  </svg>
+);
+
+
 export const DribbbleIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

@@ -10,6 +10,7 @@ import project2 from "../../public/images/projects/Car_show.jpg"
 import project3 from "../../public/images/projects/running.jpg"
 import project4 from "../../public/images/projects/people_talk.jpg"
 import project5 from "../../public/images/projects/portfolio.jpg"
+import TransitionEffect from '@/components/TransitionEffect'
 
 /* const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -71,6 +72,8 @@ const projects = () => {
         <title>Shubham | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
+
+      <TransitionEffect />
       <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text="Imagination Trumps Knowledge!"

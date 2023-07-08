@@ -120,7 +120,7 @@ const projects = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title="Peolpe's Talk"
+                title="People's Talk"
                 img={project4}
                 link="/"
                 github="https://github.com/mani9k9/people-talk"

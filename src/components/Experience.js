@@ -51,10 +51,10 @@ const {scrollYProgess} = useScroll(
                 ' />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        position="Data Analyst" company="1K Kirana"
+                        position="Software Developer/Analyst" company="1K Kirana"
                         companyLink="https://www.1knetworks.com"
                         time="11/2021-03/2023" address="Gurgoan, Haryana"
-                        work="In my role, I performed daily sales report analysis to assess store performance and identify trends. I conducted market analysis to understand the supply and demand dynamics of the product. Additionally, I spearheaded the migration from static reporting to interactive dashboards using MS Excel, Tableau, and Power BI, resulting in a significant reduction in report production time and improved data accuracy. I collaborated with vendors and partners to facilitate data sharing and ensure seamless collaboration. Working closely with cross-functional teams, I delivered actionable insights and recommendations to stakeholders."
+                        work="Developed core functionalities, streamlined sales processes, and enhanced customer relationships. Implemented customer data management, order processing, inventory tracking, and sales analytics. Led migration to interactive dashboards, reducing report production time by 75% and increasing data accuracy by 25%. Collaborated with cross-functional teams, delivering actionable insights and recommendations. Contributed to the successful implementation and continuous improvement of the CRM system."
 
                     />
 
@@ -68,7 +68,7 @@ const {scrollYProgess} = useScroll(
                         position="Freelancer" company="Fiverr"
                         companyLink="https://www.fiverr.com/users/shubhammanitrip"
                         time="03/2021-10/2021" address="Gurgoan, Haryana"
-                        work="With over a 3 year of experience in the web design and development industry, I bring a wealth of knowledge and expertise to every project. I have a deep understanding of various technologies including HTML-5, CSS, Next.Js , Java and Shopify. My focus is on transforming complex briefs into stunning, abstract, modern, and realistic designs that captivate audiences. I strive to create visually striking products that tell a compelling story and showcase the original concept behind each business. I am passionate about curating stunning designs for the digital age, and I am dedicated to helping companies reach their audiences in engaging and meaningful ways. With a strong emphasis on user experience, I ensure that the designs I create not only look aesthetically pleasing but also function seamlessly. I am committed to staying up to date with the latest design trends and best practices to provide innovative and cutting-edge solutions. Whether it's a website, e-commerce platform, or custom application, I have the skills and creativity to bring your vision to life."
+                        work="With over a 2 year of experience in the web design and development industry, I bring a wealth of knowledge and expertise to every project. I have a deep understanding of various technologies including HTML-5, CSS, Next.Js , Java and Shopify. My focus is on transforming complex briefs into stunning, abstract, modern, and realistic designs that captivate audiences. I strive to create visually striking products that tell a compelling story and showcase the original concept behind each business. I am passionate about curating stunning designs for the digital age, and I am dedicated to helping companies reach their audiences in engaging and meaningful ways. With a strong emphasis on user experience, I ensure that the designs I create not only look aesthetically pleasing but also function seamlessly. I am committed to staying up to date with the latest design trends and best practices to provide innovative and cutting-edge solutions. Whether it's a website, e-commerce platform, or custom application, I have the skills and creativity to bring your vision to life."
                     />
                 </ul>
 
